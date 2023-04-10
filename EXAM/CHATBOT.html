@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FOOD MONSTER</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <h1>FOOD</h1>
+
+  <form>
+    <label for="meal">Select a meal:</label>
+    <select id="meal" name="meal">
+      <option value="burger">Burger</option>
+      <option value="pasta">Pasta</option>
+      <option value="chicken">Chicken</option>
+    </select>
+
+    <label for="snack">Select a snack:</label>
+    <select id="snack" name="snack">
+      <option value="fries">Fries</option>
+      <option value="sundae">Sundae</option>
+    </select>
+
+    <label for="drink">Select a drink:</label>
+    <select id="drink" name="drink">
+      <option value="soft drink">Soft drink</option>
+      <option value="iced tea">Iced tea</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
